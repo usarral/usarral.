@@ -1,0 +1,22 @@
+---
+ let BASE_URL : string = import.meta.env.BASE_URL;
+---
+
+<a id="logo" href={BASE_URL} class="">
+    <picture class="md:hidden px-2">
+        <source
+                srcset="/logo-icon-dark.svg"
+                media="(prefers-color-scheme: dark)"
+        />
+        <img
+                decoding="async"
+                alt="usarral logo"
+                width="100"
+                src="/logo-icon.svg"
+        />
+    </picture>
+    <picture class="hidden md:block">
+        <source srcset="/logo-dark.svg" media="(prefers-color-scheme: dark)" />
+        <img decoding="async" alt="usarral logo" width="400" src="/logo.svg" />
+    </picture>
+</a>
