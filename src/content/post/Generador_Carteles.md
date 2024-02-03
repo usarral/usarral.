@@ -1,15 +1,14 @@
 ---
-title: "Generador de Carteles"
-description: ""
+title: 'Generador de Carteles'
+description: ''
 pubDate: 2022-11-25
 toc: false
 topic: me
 draft: false
 tags:
-    - me
-    - php
+  - me
+  - php
 ---
-
 
 ## Introducción
 
@@ -37,12 +36,12 @@ Ademas investigando descubrí que PHP puede leer correos electronicos usando el 
 El proceso es el siguiente:
 
 1. El correo asignado recibe un correo con los datos del partido como se muestra en la siguiente imagen:
-![Correo](/images/posts/2022/11/Generador_Carteles/email.png)
+   ![Correo](https://ik.imagekit.io/usarral/posts/generador-carteles/email.png?updatedAt=1706967701996)
 2. El correo es leido y procesado por la aplicación web, el cual recibe los datos del partido.
 3. Una vez están leidos todos los correos, se muestra una lista con los partidos de esa semana que van a ser incluidos en el cartel:
-![Lista](/images/posts/2022/11/Generador_Carteles/procesados.png)
+   ![Lista](https://ik.imagekit.io/usarral/posts/generador-carteles/procesados.png?updatedAt=1706967704667)
 4. Al pulsar el botón "Imprimir Cartel", se genera el cartel con los datos de los partidos seleccionados y se muestra en la pantalla la vista de impresión para poder imprimirlo a PDF o imprimirlo directamente:
-![Vista Impresión](/images/posts/2022/11/Generador_Carteles/vista_impresion.png)
+   ![Vista Impresión](https://ik.imagekit.io/usarral/posts/generador-carteles/vista_impresion.png?updatedAt=1706967706517)
 
 ## Tecnologías
 

@@ -4,15 +4,13 @@ import Searchbox from "@components/SearchBox.astro";
 import Social from "@components/Social.astro";
 ---
 
-<header
-	class="header flex flex-nowrap justify-between mb-8 py-4  items-center"
->
-	<div class="header_logo w-72">
-		<Logo />
-	</div>
-	<div class="flex flex-row text-center items-center gap-6">
-		<Searchbox />
-		<Social />
-	</div>
-</header>
+<header class="header flex flex-nowrap justify-between mb-8 p-4 items-center">
+  <div class="header_logo w-72">
+    <Logo />
+  </div>
+  <div class="flex flex-row text-center items-center gap-6">
+    <div class="hidden md:block"><Searchbox /></div>
 
+    <Social />
+  </div>
+</header>

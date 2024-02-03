@@ -1,7 +1,8 @@
 ---
-title: "Mi experiencia en el AragonSkills 2023"
-description: ""
+title: 'Mi experiencia en el AragonSkills 2023'
+description: ''
 pubDate: 2023-03-27
+updatedDate: 2023-03-28
 toc: false
 draft: false
 topic: me
